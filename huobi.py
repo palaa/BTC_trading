@@ -110,9 +110,9 @@ class Huobi:
 
 if __name__ == '__main__':
     hb = Huobi()
-    #hb.get_market_depth()
-    #print hb.market_depth
-    hb.output(hb.get_account_info())
-    hb.output(hb.get_orders())
-    hb.output(hb.buy_market(0.001))
-    hb.output(hb.sell_market(0.001))
+    hb.get_market_depth()
+    print hb.market_depth
+    #hb.output(hb.get_account_info())
+    #hb.output(hb.get_orders())
+    #hb.output(hb.buy_market(0.001))
+    #hb.output(hb.sell_market(0.001))
